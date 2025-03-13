@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		class person {
+			constructor (uname, uage) {
+				this.name = uname;
+				this.age = uage;
+			}
+			details() {
+				console.log(`The Age of ${this.name} is ${this.age} Years`);
+
+				document.write(`The Age of ${this.name} is ${this.age} Years`+"<br>");
+			}
+		}
+
+		const p =new person("Mauli Argade", 21);
+		p.details();
+
+		const q = new person("Dnyaneshwar Argade",22);
+		q.details();
+
+		const a = new person();
+		a.details();
+
+
+
+	</script>
+
+</body>
+</html>
